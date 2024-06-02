@@ -1,0 +1,24 @@
+.goal-content h2 {
+    color: var(--theme-blue);
+}
+
+/* BANNER */
+
+.banner {
+    background-image: url(../img/banner-1.png);
+    padding: 250px 0;
+    background-size: cover;
+    background-position: right;
+}
+
+.banner-content a {
+    background-color: var(--theme-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* GOALS */
+
+.goal-content a {
+    background-color: var(--theme-orange);
+}

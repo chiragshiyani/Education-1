@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/common.css" type="text/css">
+    <link rel="stylesheet" href="fonts/bt-icons/bootstrap-icons.min.css" type="text/css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <style>
+        form{
+            min-width: 400px;
+            backdrop-filter: blur(5px);
+        }
+        ::placeholder{
+            color: #ffffff!important;
+        }
+    </style>
+</head>
+<body>
+
+<section class="position-absolute top-0 start-0 bottom-0 end-0">
+    <video muted autoplay loop class="d-block w-100 h-100 object-fit-cover">
+        <source src="img/bg-video.mp4" type="video/mp4"/>
+    </video>
+    <form class="position-absolute top-50 start-50 translate-middle rounded bg-black bg-opacity-25 p-4">
+        <i class="bi bi-mortarboard-fill position-absolute translate-middle top-0 start-50 text-primary display-4 bg-white bg-opacity-50 rounded-circle py-3 px-4 shadow"></i>
+        <h1 class="text-white fs-3 text-center mt-5 mb-4">Login Here</h1>
+        <label class="mb-2 text-white">Email Address</label>
+        <input placeholder="Email Address" type="email" class="form-control mb-3 shadow-none bg-transparent text-white"/>
+        <label class="mb-2 text-white">Password</label>
+        <input placeholder="Password" type="password" class="form-control mb-3 shadow-none bg-transparent text-white"/>
+        <a href="javascript:void(0)" class="text-decoration-none text-primary">Forgot Password ?</a>
+        <p class="text-white my-2">Don't have an account ? <a href="registration.html" class="text-decoration-none text-primary">Registration</a></p>
+        <button type="submit" class="bg-white w-100 rounded-pill border-0 py-2 mt-2">Login</button>
+    </form>
+</section>
+    
+</body>
+</html>

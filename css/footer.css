@@ -1,0 +1,11 @@
+footer {
+    background-color: #4255a4;
+}
+
+.footer-inner .col-3:first-child li a {
+    padding: 10px 12px;
+}
+
+.copyright i {
+    color: var(--theme-purple);
+}

@@ -1,0 +1,143 @@
+:root {
+    --theme-orange: #FF9F67;
+    --theme-blue: #4255A4;
+    --theme-purple: #C86FFF;
+}
+
+body {
+    font-family: 'Mulish' !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.courses-banner,
+.about-banner,
+.contact-banner {
+    background: url(../img/banner-2.png);
+    background-size: cover;
+    padding: 200px 0 50px 0;
+}
+
+.courses-title h2,
+.subjects-title h2,
+.e-learning-content h2,
+.outcome-content h2,
+.experts-title h2,
+.expert-content a,
+.contact-title {
+    color: var(--theme-blue);
+}
+
+.course-btn a,
+.subject-btn a {
+    border: 1px solid var(--theme-orange);
+    color: var(--theme-orange);
+}
+
+.e-learning-content li i,
+.outcome-content li i {
+    color: var(--theme-orange);
+}
+
+.py {
+    padding: 100px 0;
+}
+
+/* LOADER */
+
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+}
+
+.loader::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 2px solid var(--theme-purple);
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-radius: 50%;
+    animation: loader 1s linear infinite;
+}
+
+.loader i {
+    line-height: 100px;
+}
+
+@keyframes loader {
+
+    to {
+        transform: rotate(360deg);
+    }
+
+}
+
+/* SERVICES */
+
+.service-item h5,
+.service-item p {
+    color: var(--theme-blue);
+}
+
+/* COURSES */
+
+.courses {
+    padding: 50px 0 100px 0;
+}
+
+.courses-item {
+    box-shadow: 0px 6px 6px 0px rgba(2, 25, 65, 0.08);
+}
+
+.courses-item a {
+    color: var(--theme-blue);
+}
+
+.courses-item i,
+.courses .swiper-slide span {
+    color: var(--theme-orange);
+}
+
+/* ONLINE-EDUCATION */
+
+.e-learning-content span {
+    background: linear-gradient(to bottom, #eae2fe 0%, #a376ff 1%, #ea68ff 98%, #ec7dfe 99%, #f3f3fa 99%, #f4f5fa 100%);
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+}
+
+.e-learning-content li p {
+    color: var(--theme-blue);
+}
+
+.e-learning-img a {
+    background-color: var(--theme-orange);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+}
+
+/* BACK-TO-TOP */
+
+.back-to-top {
+    background-color: var(--theme-purple);
+    right: 30px;
+    bottom: 30px;
+    transform: rotate(-90deg);
+    padding: 10px 16px;
+    display: none;
+}

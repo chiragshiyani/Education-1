@@ -1,0 +1,36 @@
+header nav li:nth-last-child(2) a {
+    background-color: var(--theme-orange);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header nav li:last-child a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@keyframes slide {
+
+    from {
+        transform: translateY(-100%);
+    }
+
+}
+
+@media(max-width:991px) {
+
+    header {
+        background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+    }
+
+}
+
+@media(min-width:992px) {
+
+    .slide {
+        background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+        animation: slide 0.4s linear;
+        transition: 0.4s all;
+    }
+
+}
